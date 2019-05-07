@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492E16C222819BFB00F95065 /* EuropeanParrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C122819BFB00F95065 /* EuropeanParrot.swift */; };
+		492E16C422819DE800F95065 /* EuropeanParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C322819DE800F95065 /* EuropeanParrotTests.swift */; };
 		AB62DFC71F9B6D7200613911 /* ParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFC61F9B6D7200613911 /* ParrotTests.swift */; };
 		AB62DFCE1F9B6E6B00613911 /* ParrotTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFCD1F9B6E6B00613911 /* ParrotTypeEnum.swift */; };
 		AB62DFD01F9B6EAA00613911 /* Parrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFCF1F9B6EAA00613911 /* Parrot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		492E16C122819BFB00F95065 /* EuropeanParrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanParrot.swift; sourceTree = "<group>"; };
+		492E16C322819DE800F95065 /* EuropeanParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanParrotTests.swift; sourceTree = "<group>"; };
 		AB62DFC31F9B6D7200613911 /* ParrotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB62DFC61F9B6D7200613911 /* ParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotTests.swift; sourceTree = "<group>"; };
 		AB62DFC81F9B6D7200613911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				AB62DFC61F9B6D7200613911 /* ParrotTests.swift */,
+				492E16C322819DE800F95065 /* EuropeanParrotTests.swift */,
 				AB62DFC81F9B6D7200613911 /* Info.plist */,
 			);
 			path = ParrotTests;
@@ -62,6 +67,7 @@
 			children = (
 				AB62DFCD1F9B6E6B00613911 /* ParrotTypeEnum.swift */,
 				AB62DFCF1F9B6EAA00613911 /* Parrot.swift */,
+				492E16C122819BFB00F95065 /* EuropeanParrot.swift */,
 			);
 			path = Parrot;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			files = (
 				AB62DFCE1F9B6E6B00613911 /* ParrotTypeEnum.swift in Sources */,
 				AB62DFD01F9B6EAA00613911 /* Parrot.swift in Sources */,
+				492E16C222819BFB00F95065 /* EuropeanParrot.swift in Sources */,
+				492E16C422819DE800F95065 /* EuropeanParrotTests.swift in Sources */,
 				AB62DFC71F9B6D7200613911 /* ParrotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
