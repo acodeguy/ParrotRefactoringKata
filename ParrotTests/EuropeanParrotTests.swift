@@ -9,7 +9,6 @@ import Foundation
 import XCTest
 
 class EuropeanParrotTests: XCTestCase {
-    
     func testSpeedOfEuropeanParrot() {
         let parrot = EuropeanParrot()
         XCTAssertEqual(parrot.speed, 12.0)

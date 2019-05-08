@@ -7,8 +7,7 @@
 
 import Foundation
 
-class EuropeanParrot: Parrot {  
-            
+class EuropeanParrot: Parrot {
     override var speed: Double {
         return super.speed
     }
