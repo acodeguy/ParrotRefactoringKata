@@ -7,7 +7,7 @@
 
 import Foundation
 
-class EuropeanParrot: Parrot {
+class EuropeanParrot: Parrot {  
         
     override init(numberOfCoconuts: Int) {
         super.init(numberOfCoconuts: numberOfCoconuts)

@@ -1,7 +1,9 @@
 import Foundation
 
 class Parrot {
-    private let numberOfCoconuts: Int
+    
+    var numberOfCoconuts: Int
+    let baseSpeed: Double = 12.0
    
     init(numberOfCoconuts: Int) {
         self.numberOfCoconuts = numberOfCoconuts
@@ -29,11 +31,9 @@ class Parrot {
 //        return min(24.0, voltage*baseSpeed)
 //    }
 //    
-//    private var loadFactor: Double {
-//        return 9.0
-//    }
 
-    private var baseSpeed: Double {
-        return 12.0
-    }
+
+//    private var baseSpeed: Double {
+//        return 12.0
+//    }
 }

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		492E16C222819BFB00F95065 /* EuropeanParrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C122819BFB00F95065 /* EuropeanParrot.swift */; };
 		492E16C422819DE800F95065 /* EuropeanParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C322819DE800F95065 /* EuropeanParrotTests.swift */; };
+		492E16C62281A14200F95065 /* AfricanParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C52281A14200F95065 /* AfricanParrotTests.swift */; };
+		492E16C82281A19000F95065 /* AfricanParrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C72281A19000F95065 /* AfricanParrot.swift */; };
+		492E16CA2281A24C00F95065 /* CanBeNailedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16C92281A24C00F95065 /* CanBeNailedProtocol.swift */; };
+		492E16CC2281A3AA00F95065 /* HasVoltageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16CB2281A3AA00F95065 /* HasVoltageProtocol.swift */; };
+		492E16CE2282C84C00F95065 /* HoldsCoconutsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16CD2282C84C00F95065 /* HoldsCoconutsProtocol.swift */; };
 		AB62DFC71F9B6D7200613911 /* ParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFC61F9B6D7200613911 /* ParrotTests.swift */; };
 		AB62DFCE1F9B6E6B00613911 /* ParrotTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFCD1F9B6E6B00613911 /* ParrotTypeEnum.swift */; };
 		AB62DFD01F9B6EAA00613911 /* Parrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFCF1F9B6EAA00613911 /* Parrot.swift */; };
@@ -17,6 +22,11 @@
 /* Begin PBXFileReference section */
 		492E16C122819BFB00F95065 /* EuropeanParrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanParrot.swift; sourceTree = "<group>"; };
 		492E16C322819DE800F95065 /* EuropeanParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanParrotTests.swift; sourceTree = "<group>"; };
+		492E16C52281A14200F95065 /* AfricanParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricanParrotTests.swift; sourceTree = "<group>"; };
+		492E16C72281A19000F95065 /* AfricanParrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricanParrot.swift; sourceTree = "<group>"; };
+		492E16C92281A24C00F95065 /* CanBeNailedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanBeNailedProtocol.swift; sourceTree = "<group>"; };
+		492E16CB2281A3AA00F95065 /* HasVoltageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasVoltageProtocol.swift; sourceTree = "<group>"; };
+		492E16CD2282C84C00F95065 /* HoldsCoconutsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldsCoconutsProtocol.swift; sourceTree = "<group>"; };
 		AB62DFC31F9B6D7200613911 /* ParrotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB62DFC61F9B6D7200613911 /* ParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotTests.swift; sourceTree = "<group>"; };
 		AB62DFC81F9B6D7200613911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +68,7 @@
 				AB62DFC61F9B6D7200613911 /* ParrotTests.swift */,
 				492E16C322819DE800F95065 /* EuropeanParrotTests.swift */,
 				AB62DFC81F9B6D7200613911 /* Info.plist */,
+				492E16C52281A14200F95065 /* AfricanParrotTests.swift */,
 			);
 			path = ParrotTests;
 			sourceTree = "<group>";
@@ -68,6 +79,10 @@
 				AB62DFCD1F9B6E6B00613911 /* ParrotTypeEnum.swift */,
 				AB62DFCF1F9B6EAA00613911 /* Parrot.swift */,
 				492E16C122819BFB00F95065 /* EuropeanParrot.swift */,
+				492E16C72281A19000F95065 /* AfricanParrot.swift */,
+				492E16C92281A24C00F95065 /* CanBeNailedProtocol.swift */,
+				492E16CB2281A3AA00F95065 /* HasVoltageProtocol.swift */,
+				492E16CD2282C84C00F95065 /* HoldsCoconutsProtocol.swift */,
 			);
 			path = Parrot;
 			sourceTree = "<group>";
@@ -141,6 +156,11 @@
 			files = (
 				AB62DFCE1F9B6E6B00613911 /* ParrotTypeEnum.swift in Sources */,
 				AB62DFD01F9B6EAA00613911 /* Parrot.swift in Sources */,
+				492E16C82281A19000F95065 /* AfricanParrot.swift in Sources */,
+				492E16CC2281A3AA00F95065 /* HasVoltageProtocol.swift in Sources */,
+				492E16C62281A14200F95065 /* AfricanParrotTests.swift in Sources */,
+				492E16CA2281A24C00F95065 /* CanBeNailedProtocol.swift in Sources */,
+				492E16CE2282C84C00F95065 /* HoldsCoconutsProtocol.swift in Sources */,
 				492E16C222819BFB00F95065 /* EuropeanParrot.swift in Sources */,
 				492E16C422819DE800F95065 /* EuropeanParrotTests.swift in Sources */,
 				AB62DFC71F9B6D7200613911 /* ParrotTests.swift in Sources */,
