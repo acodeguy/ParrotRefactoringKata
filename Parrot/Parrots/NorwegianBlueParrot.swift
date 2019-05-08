@@ -7,15 +7,16 @@
 
 import Foundation
 
-class NorwegianBlueParrot: Parrot, HasVoltageProtocol, CanBeNailedProtocol {
+class NorwegianBlueParrot: Parrot, CanHaveVoltage, CanBeNailed, CanHoldCoconuts {
     
     var isNailed: Bool
     var voltage: Double = 0.0
+    var numberOfCoconuts: Int
     
     init(numberOfCoconuts: Int, voltage: Double, isNailed: Bool) {
+        self.numberOfCoconuts = numberOfCoconuts
         self.isNailed = isNailed
         self.voltage = voltage
-        super.init(numberOfCoconuts: numberOfCoconuts)
     }
     
     override var speed: Double {
@@ -23,6 +24,6 @@ class NorwegianBlueParrot: Parrot, HasVoltageProtocol, CanBeNailedProtocol {
     }
     
     private func baseSpeed(voltage: Double) -> Double {
-        return min(24.0, voltage*baseSpeed)
+        return min(24.0, voltage * baseSpeed)
     }
 }

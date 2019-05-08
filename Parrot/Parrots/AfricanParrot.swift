@@ -7,14 +7,15 @@
 
 import Foundation
 
-class AfricanParrot: Parrot, HasVoltageProtocol {
+class AfricanParrot: Parrot, CanHaveVoltage, CanHoldCoconuts {
     
     var voltage: Double
     private var loadFactor: Double = 9.0
+    var numberOfCoconuts: Int
     
     init(numberOfCoconuts: Int, voltage: Double) {
+        self.numberOfCoconuts = numberOfCoconuts
         self.voltage = voltage
-        super.init(numberOfCoconuts: numberOfCoconuts)
     }
     
     override var speed: Double {

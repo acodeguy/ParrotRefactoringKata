@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol HasVoltageProtocol {
+protocol CanHaveVoltage {
     var voltage: Double { get }
 }

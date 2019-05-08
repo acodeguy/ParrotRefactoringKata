@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol CanBeNailedProtocol {
+protocol CanBeNailed {
     var isNailed: Bool { get set }
 }

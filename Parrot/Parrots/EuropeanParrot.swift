@@ -8,11 +8,7 @@
 import Foundation
 
 class EuropeanParrot: Parrot {  
-        
-    override init(numberOfCoconuts: Int) {
-        super.init(numberOfCoconuts: numberOfCoconuts)
-    }
-    
+            
     override var speed: Double {
         return super.speed
     }

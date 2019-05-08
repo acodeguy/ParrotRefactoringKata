@@ -11,7 +11,7 @@ import XCTest
 class EuropeanParrotTests: XCTestCase {
     
     func testSpeedOfEuropeanParrot() {
-        let parrot = EuropeanParrot(numberOfCoconuts: 0);
+        let parrot = EuropeanParrot()
         XCTAssertEqual(parrot.speed, 12.0)
     }
 }
