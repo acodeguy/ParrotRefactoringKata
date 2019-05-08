@@ -25,6 +25,4 @@ class NorwegianBlueParrot: Parrot, HasVoltageProtocol, CanBeNailedProtocol {
     private func baseSpeed(voltage: Double) -> Double {
         return min(24.0, voltage*baseSpeed)
     }
-    
-    
 }
