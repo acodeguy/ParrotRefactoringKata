@@ -10,3 +10,6 @@ Refactor this code, take small steps, run the tests often. See how small and bea
 After reading through the code, I could see that the Parrot class could be split into sub-classes as not all types of parrot used all parts of the code.
 
 I chose to use Protocols (similar to Interfaces in other languages) in order to give shared behaviour to different classes, for instance, not all parrots made use holding coconuts so there was no need for all parrots to know about this ability. Using a Swift protocol allowed me to implement this for only the classes that needed it (interface segregation).
+
+## Extensions
+- I have added a protocol for allowing a parrot to be named (enforces existence of a variable ```name```) if implemented on the class

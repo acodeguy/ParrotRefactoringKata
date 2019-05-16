@@ -16,6 +16,7 @@
 		492E16D02282D6B500F95065 /* NorwegianBlueParrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16CF2282D6B500F95065 /* NorwegianBlueParrot.swift */; };
 		492E16D22282D7EE00F95065 /* NorwegianBlueParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16D12282D7EE00F95065 /* NorwegianBlueParrotTests.swift */; };
 		492E16D42282E1F700F95065 /* CanHoldCoconuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E16D32282E1F700F95065 /* CanHoldCoconuts.swift */; };
+		49548D14228D68BB000A4304 /* CanBeNamed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49548D13228D68BB000A4304 /* CanBeNamed.swift */; };
 		AB62DFC71F9B6D7200613911 /* ParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFC61F9B6D7200613911 /* ParrotTests.swift */; };
 		AB62DFD01F9B6EAA00613911 /* Parrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62DFCF1F9B6EAA00613911 /* Parrot.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		492E16CF2282D6B500F95065 /* NorwegianBlueParrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorwegianBlueParrot.swift; sourceTree = "<group>"; };
 		492E16D12282D7EE00F95065 /* NorwegianBlueParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorwegianBlueParrotTests.swift; sourceTree = "<group>"; };
 		492E16D32282E1F700F95065 /* CanHoldCoconuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanHoldCoconuts.swift; sourceTree = "<group>"; };
+		49548D13228D68BB000A4304 /* CanBeNamed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanBeNamed.swift; sourceTree = "<group>"; };
 		AB62DFC31F9B6D7200613911 /* ParrotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB62DFC61F9B6D7200613911 /* ParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotTests.swift; sourceTree = "<group>"; };
 		AB62DFC81F9B6D7200613911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				492E16D32282E1F700F95065 /* CanHoldCoconuts.swift */,
 				492E16C92281A24C00F95065 /* CanBeNailed.swift */,
 				492E16CB2281A3AA00F95065 /* CanHaveVoltage.swift */,
+				49548D13228D68BB000A4304 /* CanBeNamed.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB62DFD01F9B6EAA00613911 /* Parrot.swift in Sources */,
+				49548D14228D68BB000A4304 /* CanBeNamed.swift in Sources */,
 				492E16C82281A19000F95065 /* AfricanParrot.swift in Sources */,
 				492E16CC2281A3AA00F95065 /* CanHaveVoltage.swift in Sources */,
 				492E16C62281A14200F95065 /* AfricanParrotTests.swift in Sources */,

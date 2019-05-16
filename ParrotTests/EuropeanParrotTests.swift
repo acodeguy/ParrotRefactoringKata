@@ -9,8 +9,14 @@ import Foundation
 import XCTest
 
 class EuropeanParrotTests: XCTestCase {
+    let parrot = EuropeanParrot(name: "Barry")
+    func setup() {
+        super.setUp()
+    }
     func testSpeedOfEuropeanParrot() {
-        let parrot = EuropeanParrot()
         XCTAssertEqual(parrot.speed, 12.0)
+    }
+    func testCanBeNamed() {
+        XCTAssertEqual(parrot.name, "Barry")
     }
 }
