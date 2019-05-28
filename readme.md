@@ -11,5 +11,11 @@ After reading through the code, I could see that the Parrot class could be split
 
 I chose to use Protocols (similar to Interfaces in other languages) in order to give shared behaviour to different classes, for instance, not all parrots made use holding coconuts so there was no need for all parrots to know about this ability. Using a Swift protocol allowed me to implement this for only the classes that needed it (interface segregation).
 
+## Testing
+Testing has been completed with XCTest, all are passing.
+
+## Code Quality
+Code has been linted fully with Swiftlint; 0 violations, 0 serious detected.
+
 ## Extensions
 - I have added a protocol for allowing a parrot to be named (enforces existence of a variable ```name```) if implemented on the class
